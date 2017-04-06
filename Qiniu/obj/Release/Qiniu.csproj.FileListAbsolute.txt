@@ -1,0 +1,7 @@
+I:\积微物联\Oss\Qiniu\bin\Release\Qiniu.dll
+I:\积微物联\Oss\Qiniu\bin\Release\Qiniu.pdb
+I:\积微物联\Oss\Qiniu\bin\Release\Newtonsoft.Json.dll
+I:\积微物联\Oss\Qiniu\bin\Release\Newtonsoft.Json.xml
+I:\积微物联\Oss\Qiniu\obj\Release\Qiniu.dll
+I:\积微物联\Oss\Qiniu\obj\Release\Qiniu.pdb
+I:\积微物联\Oss\Qiniu\obj\Release\Qiniu.csprojResolveAssemblyReference.cache

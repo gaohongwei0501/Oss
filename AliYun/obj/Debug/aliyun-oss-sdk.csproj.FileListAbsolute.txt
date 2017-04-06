@@ -1,0 +1,8 @@
+I:\积微物联\Oss\AliYun\bin\Debug\Aliyun.OSS.dll
+I:\积微物联\Oss\AliYun\bin\Debug\Aliyun.OSS.pdb
+I:\积微物联\Oss\AliYun\obj\Debug\aliyun-oss-sdk.csprojResolveAssemblyReference.cache
+I:\积微物联\Oss\AliYun\obj\Debug\Aliyun.OSS.Domain.OssResources.resources
+I:\积微物联\Oss\AliYun\obj\Debug\Aliyun.OSS.Properties.Resources.resources
+I:\积微物联\Oss\AliYun\obj\Debug\aliyun-oss-sdk.csproj.GenerateResource.Cache
+I:\积微物联\Oss\AliYun\obj\Debug\Aliyun.OSS.dll
+I:\积微物联\Oss\AliYun\obj\Debug\Aliyun.OSS.pdb

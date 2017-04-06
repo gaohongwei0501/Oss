@@ -1,0 +1,1918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Namespaces>
+  <Namespace Name="Aliyun.OSS">
+   <Messages>
+    <Message Id="OSS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“Aliyun.OSS”中“OSS”的大小写，将其改为“Oss”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aliyun.OSS.Common">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">考虑将“Aliyun.OSS.Common”中定义的类型与另一个命名空间合并。</Issue>
+    </Message>
+    <Message Id="OSS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“Aliyun.OSS.Common”中“OSS”的大小写，将其改为“Oss”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aliyun.OSS.Common.Authentication">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">考虑将“Aliyun.OSS.Common.Authentication”中定义的类型与另一个命名空间合并。</Issue>
+    </Message>
+    <Message Id="OSS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“Aliyun.OSS.Common.Authentication”中“OSS”的大小写，将其改为“Oss”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aliyun.OSS.Util">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">考虑将“Aliyun.OSS.Util”中定义的类型与另一个命名空间合并。</Issue>
+    </Message>
+    <Message Id="OSS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">更正命名空间名称“Aliyun.OSS.Util”中“OSS”的大小写，将其改为“Oss”。</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.dll">
+   <Modules>
+    <Module Name="aliyun.oss.dll">
+     <Messages>
+      <Message Id="OSS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">更正程序集名称 'Aliyun.OSS.dll' 中“OSS”的大小写，将其改为“Oss”。</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">使用 CLSCompliant(true)来标记 'Aliyun.OSS.dll'，因为它公开外部可见的类型。</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Aliyun.OSS">
+       <Types>
+        <Type Name="AccessControlList" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ACL" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ACL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="AccessControlList.cs" Line="42">更正成员名称 'AccessControlList.ACL' 中“ACL”的大小写，将其改为“Acl”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CORSRule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'CORSRule' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#AllowedHeaders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="CORSRule.cs" Line="49">通过移除属性 setter 将 'CORSRule.AllowedHeaders' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllowedMethods" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="CORSRule.cs" Line="38">通过移除属性 setter 将 'CORSRule.AllowedMethods' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllowedOrigins" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="CORSRule.cs" Line="24">通过移除属性 setter 将 'CORSRule.AllowedOrigins' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExposeHeaders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="CORSRule.cs" Line="64">通过移除属性 setter 将 'CORSRule.ExposeHeaders' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Keys" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="DeleteObjectsResult.cs" Line="29">将 'DeleteObjectsResult.Keys' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+           <Accessors>
+            <Accessor Name="#get_Keys()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+               <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="DeleteObjectsResult.cs" Line="32">在方法 'DeleteObjectsResult.Keys.get()' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsResult+DeletedObject" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'DeleteObjectsResult.DeletedObject'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="EqualConditionItem" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Jsonize()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="93">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'EqualConditionItem.Jsonize()' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="96">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'EqualConditionItem.Jsonize()' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GeneratePresignedUriRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ContentMd5" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Md" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="GeneratePresignedUriRequest.cs" Line="57">更正成员名称 'GeneratePresignedUriRequest.ContentMd5' 中“Md”的大小写，将其改为“MD”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#QueryParams" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="GeneratePresignedUriRequest.cs" Line="104">通过移除属性 setter 将 'GeneratePresignedUriRequest.QueryParams' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UserMetadata" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="GeneratePresignedUriRequest.cs" Line="88">通过移除属性 setter 将 'GeneratePresignedUriRequest.UserMetadata' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetObjectRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Range" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="GetObjectRequest.cs" Line="42">将 'GetObjectRequest.Range' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IOss" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ResumableCopyObject(Aliyun.OSS.CopyObjectRequest,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error">用提供所有默认形参的重载来替换方法 'IOss.ResumableCopyObject(CopyObjectRequest, string, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableUploadObject(System.String,System.String,System.IO.Stream,Aliyun.OSS.ObjectMetadata,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error">用提供所有默认形参的重载来替换方法 'IOss.ResumableUploadObject(string, string, Stream, ObjectMetadata, string, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableUploadObject(System.String,System.String,System.String,Aliyun.OSS.ObjectMetadata,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error">用提供所有默认形参的重载来替换方法 'IOss.ResumableUploadObject(string, string, string, ObjectMetadata, string, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LifecycleRule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="LifecycleRule.cs" Line="36">更正成员名称 'LifecycleRule.ID' 中“ID”的大小写，将其改为“Id”。“Id”是一个缩写词，因此无需遵守首字母缩略词大小写规则。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MatchRuleChecker" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="266">声明 'MatchRuleChecker' 中的静态字段时应初始化所有这些字段，并移除显式静态构造函数。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Check(Aliyun.OSS.MatchMode,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="295">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'MatchRuleChecker.Check(MatchMode, string)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ObjectMetadata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ContentMd5" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Md" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ObjectMetadata.cs" Line="197">更正成员名称 'ObjectMetadata.ContentMd5' 中“Md”的大小写，将其改为“MD”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="OssClient" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidExcessiveClassCoupling" Category="Microsoft.Maintainability" CheckId="CA1506" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="90" Level="Error">'OssClient' 与来自 18 个不同命名空间中的 145 个不同类型耦合。请重写或重构该类的方法，以降低它的类耦合度，或者考虑将该类的某些方法移到与之紧密耦合的其他某些类型中。高于 95 的类耦合度表示可维护性较差，介于 95 和 80 之间的类耦合度表示可维护性适中，低于 80 的类耦合度表示可维护性较好。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.String,System.String,System.String,Aliyun.OSS.Common.ClientConfiguration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="StringUriOverloadsCallSystemUriOverloads" Category="Microsoft.Design" CheckId="CA1057" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="70">重构 'OssClient.OssClient(string, string, string, ClientConfiguration)'，使其基于 'endpoint' 生成一个 System.Uri 对象，然后调用 'OssClient.OssClient(Uri, string, string, ClientConfiguration)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.String,System.String,System.String,System.String,Aliyun.OSS.Common.ClientConfiguration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="StringUriOverloadsCallSystemUriOverloads" Category="Microsoft.Design" CheckId="CA1057" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="82">重构 'OssClient.OssClient(string, string, string, string, ClientConfiguration)'，使其基于 'endpoint' 生成一个 System.Uri 对象，然后调用 'OssClient.OssClient(Uri, string, string, string, ClientConfiguration)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AbortMultipartUpload(Aliyun.OSS.AbortMultipartUploadRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1157">在外部可见方法 'OssClient.AbortMultipartUpload(AbortMultipartUploadRequest)' 中，请在使用参数“abortMultipartUploadRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AppendObject(Aliyun.OSS.AppendObjectRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="710">在外部可见方法 'OssClient.AppendObject(AppendObjectRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginAppendObject(Aliyun.OSS.AppendObjectRequest,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="721">在外部可见方法 'OssClient.BeginAppendObject(AppendObjectRequest, AsyncCallback, object)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginCopyObject(Aliyun.OSS.CopyObjectRequest,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="849">在外部可见方法 'OssClient.BeginCopyObject(CopyObjectRequest, AsyncCallback, object)' 中，请在使用参数“copyObjectRequst”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginGetObject(Aliyun.OSS.GetObjectRequest,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="781">在外部可见方法 'OssClient.BeginGetObject(GetObjectRequest, AsyncCallback, object)' 中，请在使用参数“getObjectRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginPutObject(System.String,System.String,System.String,Aliyun.OSS.ObjectMetadata,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="580">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.BeginPutObject(string, string, string, ObjectMetadata, AsyncCallback, object)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginUploadPart(Aliyun.OSS.UploadPartRequest,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1181">在外部可见方法 'OssClient.BeginUploadPart(UploadPartRequest, AsyncCallback, object)' 中，请在使用参数“uploadPartRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BeginUploadPartCopy(Aliyun.OSS.UploadPartCopyRequest,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1209">在外部可见方法 'OssClient.BeginUploadPartCopy(UploadPartCopyRequest, AsyncCallback, object)' 中，请在使用参数“uploadPartCopyRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CompleteMultipartUpload(Aliyun.OSS.CompleteMultipartUploadRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1236">在外部可见方法 'OssClient.CompleteMultipartUpload(CompleteMultipartUploadRequest)' 中，请在使用参数“completeMultipartUploadRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CopyBigObject(Aliyun.OSS.CopyObjectRequest,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="864">用提供所有默认形参的重载来替换方法 'OssClient.CopyBigObject(CopyObjectRequest, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CopyObject(Aliyun.OSS.CopyObjectRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="838">在外部可见方法 'OssClient.CopyObject(CopyObjectRequest)' 中，请在使用参数“copyObjectRequst”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DeleteObjects(Aliyun.OSS.DeleteObjectsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="828">在外部可见方法 'OssClient.DeleteObjects(DeleteObjectsRequest)' 中，请在使用参数“deleteObjectsRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#FormatEndpoint(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1452">由于 'string.ToLower()' 的行为可能因当前用户的区域设置不同而不同，请将 'OssClient.FormatEndpoint(string)' 中的此调用替换为对 'string.ToLower(CultureInfo)' 的调用。如果要向用户显示 'string.ToLower(CultureInfo)' 的结果，请将“CultureInfo.CurrentCulture”指定为“CultureInfo”参数；如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Issue>
+            </Message>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1454">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.FormatEndpoint(string)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1454">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.FormatEndpoint(string)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GeneratePostPolicy(System.DateTime,Aliyun.OSS.PolicyConditions)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1125">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.GeneratePostPolicy(DateTime, PolicyConditions)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1127">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.GeneratePostPolicy(DateTime, PolicyConditions)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GeneratePresignedUri(Aliyun.OSS.GeneratePresignedUriRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.EndsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1105">由于 'string.EndsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.GeneratePresignedUri(GeneratePresignedUriRequest)' 中的此调用替换为对 'string.EndsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.EndsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1054">在方法 'OssClient.GeneratePresignedUri(GeneratePresignedUriRequest)' 中，请在对 'request' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1046">在外部可见方法 'OssClient.GeneratePresignedUri(GeneratePresignedUriRequest)' 中，请在使用参数“generatePresignedUriRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetObject(Aliyun.OSS.GetObjectRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="770">在外部可见方法 'OssClient.GetObject(GetObjectRequest)' 中，请在使用参数“getObjectRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetObject(System.Uri)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="744">在方法 'OssClient.GetObject(Uri)' 中，'new OssObject()' 对象未按所有异常路径释放。请在对 'new OssObject()' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitiateMultipartUpload(Aliyun.OSS.InitiateMultipartUploadRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1147">在外部可见方法 'OssClient.InitiateMultipartUpload(InitiateMultipartUploadRequest)' 中，请在使用参数“initiateMultipartUploadRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ListMultipartUploads(Aliyun.OSS.ListMultipartUploadsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1137">在外部可见方法 'OssClient.ListMultipartUploads(ListMultipartUploadsRequest)' 中，请在使用参数“listMultipartUploadsRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ListObjects(Aliyun.OSS.ListObjectsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="485">在外部可见方法 'OssClient.ListObjects(ListObjectsRequest)' 中，请在使用参数“listObjectsRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ListParts(Aliyun.OSS.ListPartsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1226">在外部可见方法 'OssClient.ListParts(ListPartsRequest)' 中，请在使用参数“listPartsRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadResumableCopyContext(Aliyun.OSS.CopyObjectRequest,Aliyun.OSS.ObjectMetadata,System.String,System.Int64)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1281">从未使用 'OssClient.LoadResumableCopyContext(CopyObjectRequest, ObjectMetadata, string, long)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadResumableUploadContext(System.String,System.String,System.IO.Stream,System.String,System.Int64)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1296">从未使用 'OssClient.LoadResumableUploadContext(string, string, Stream, string, long)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PutBigObject(System.String,System.String,System.IO.Stream,Aliyun.OSS.ObjectMetadata,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="645">用提供所有默认形参的重载来替换方法 'OssClient.PutBigObject(string, string, Stream, ObjectMetadata, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PutBigObject(System.String,System.String,System.String,Aliyun.OSS.ObjectMetadata,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="639">用提供所有默认形参的重载来替换方法 'OssClient.PutBigObject(string, string, string, ObjectMetadata, long?)'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PutObject(System.String,System.String,System.String,Aliyun.OSS.ObjectMetadata)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="562">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.PutObject(string, string, string, ObjectMetadata)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PutObject(System.Uri,System.IO.Stream)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="1" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="620">在外部可见方法 'OssClient.PutObject(Uri, Stream)' 中，请在使用参数“content”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PutObject(System.Uri,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="604">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.PutObject(Uri, string)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableCopyObject(Aliyun.OSS.CopyObjectRequest,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="870">用提供所有默认形参的重载来替换方法 'OssClient.ResumableCopyObject(CopyObjectRequest, string, long?)'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="876">在外部可见方法 'OssClient.ResumableCopyObject(CopyObjectRequest, string, long?)' 中，请在使用参数“copyObjectRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableCopyWithRetry(Aliyun.OSS.CopyObjectRequest,Aliyun.OSS.ResumableContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1409">'OssClient.ResumableCopyWithRetry(CopyObjectRequest, ResumableContext)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableUploadObject(System.String,System.String,System.IO.Stream,Aliyun.OSS.ObjectMetadata,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="668">用提供所有默认形参的重载来替换方法 'OssClient.ResumableUploadObject(string, string, Stream, ObjectMetadata, string, long?)'。</Issue>
+            </Message>
+            <Message Id="2" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="675">在外部可见方法 'OssClient.ResumableUploadObject(string, string, Stream, ObjectMetadata, string, long?)' 中，请在使用参数“content”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableUploadObject(System.String,System.String,System.String,Aliyun.OSS.ObjectMetadata,System.String,System.Nullable`1&lt;System.Int64&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="651">用提供所有默认形参的重载来替换方法 'OssClient.ResumableUploadObject(string, string, string, ObjectMetadata, string, long?)'。</Issue>
+            </Message>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="652">由于 'string.Format(string, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssClient.ResumableUploadObject(string, string, string, ObjectMetadata, string, long?)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ResumableUploadWithRetry(System.String,System.String,System.IO.Stream,Aliyun.OSS.ResumableContext)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1358">'OssClient.ResumableUploadWithRetry(string, string, Stream, ResumableContext)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketAcl(Aliyun.OSS.SetBucketAclRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="252">在外部可见方法 'OssClient.SetBucketAcl(SetBucketAclRequest)' 中，请在使用参数“setBucketAclRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketCors(Aliyun.OSS.SetBucketCorsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="275">在外部可见方法 'OssClient.SetBucketCors(SetBucketCorsRequest)' 中，请在使用参数“setBucketCorsRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketLifecycle(Aliyun.OSS.SetBucketLifecycleRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="405">在外部可见方法 'OssClient.SetBucketLifecycle(SetBucketLifecycleRequest)' 中，请在使用参数“setBucketLifecycleRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketLogging(Aliyun.OSS.SetBucketLoggingRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="310">在外部可见方法 'OssClient.SetBucketLogging(SetBucketLoggingRequest)' 中，请在使用参数“setBucketLoggingRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketReferer(Aliyun.OSS.SetBucketRefererRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="381">在外部可见方法 'OssClient.SetBucketReferer(SetBucketRefererRequest)' 中，请在使用参数“setBucketRefererRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetBucketWebsite(Aliyun.OSS.SetBucketWebsiteRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="345">在外部可见方法 'OssClient.SetBucketWebsite(SetBucketWebsiteRequest)' 中，请在使用参数“setBucketWebSiteRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetObjectAcl(Aliyun.OSS.SetObjectAclRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="976">在外部可见方法 'OssClient.SetObjectAcl(SetObjectAclRequest)' 中，请在使用参数“setObjectAclRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadPart(Aliyun.OSS.UploadPartRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1170">在外部可见方法 'OssClient.UploadPart(UploadPartRequest)' 中，请在使用参数“uploadPartRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadPartCopy(Aliyun.OSS.UploadPartCopyRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun" File="OssClient.cs" Line="1197">在外部可见方法 'OssClient.UploadPartCopy(UploadPartCopyRequest)' 中，请在使用参数“uploadPartCopyRequest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PolicyConditions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AddConditionItem(System.String,System.Int64,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="247">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'PolicyConditions.AddConditionItem(string, long, long)' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RangeConditionItem" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Jsonize()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="141">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'RangeConditionItem.Jsonize()' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RefererConfiguration+RefererListModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'RefererConfiguration.RefererListModel'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Referers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="RefererConfiguration.cs" Line="43">将 'RefererConfiguration.RefererListModel.Referers' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ResumableContext" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Base64(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="238">从未使用 'ResumableContext.Base64(string)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.EndsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="213">由于 'string.EndsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'ResumableContext.ToString()' 中的此调用替换为对 'string.EndsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.EndsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ResumablePartContext" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="82">由于 'int.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'ResumablePartContext.ToString()' 中的此调用替换为对 'int.ToString(IFormatProvider)' 的调用。如果要向用户显示 'int.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="86">由于 'int.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'ResumablePartContext.ToString()' 中的此调用替换为对 'int.ToString(IFormatProvider)' 的调用。如果要向用户显示 'int.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="82">由于 'long.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'ResumablePartContext.ToString()' 中的此调用替换为对 'long.ToString(IFormatProvider)' 的调用。如果要向用户显示 'long.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="ResumableContext.cs" Line="82">由于 'long.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'ResumablePartContext.ToString()' 中的此调用替换为对 'long.ToString(IFormatProvider)' 的调用。如果要向用户显示 'long.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketAclRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ACL" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ACL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="SetBucketAclRequest.cs" Line="23">更正成员名称 'SetBucketAclRequest.ACL' 中“ACL”的大小写，将其改为“Acl”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketCorsRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AddCORSRule(Aliyun.OSS.CORSRule)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="SetBucketCorsRequest.cs" Line="57">更正成员名称 'SetBucketCorsRequest.AddCORSRule(CORSRule)' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CORSRules" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="SetBucketCorsRequest.cs" Line="31">通过移除属性 setter 将 'SetBucketCorsRequest.CORSRules' 更改为只读。</Issue>
+            </Message>
+            <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="SetBucketCorsRequest.cs" Line="31">更正成员名称 'SetBucketCorsRequest.CORSRules' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketLifecycleRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LifecycleRules" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Domain" File="SetBucketLifecycleRequest.cs" Line="31">通过移除属性 setter 将 'SetBucketLifecycleRequest.LifecycleRules' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetObjectAclRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ACL" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ACL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="SetObjectAclRequest.cs" Line="33">更正成员名称 'SetObjectAclRequest.ACL' 中“ACL”的大小写，将其改为“Acl”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="StartWithConditionItem" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Jsonize()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="PolicyConditions.cs" Line="120">由于 'string.Format(string, object, object)' 的行为可能会因当前用户的区域设置不同而不同，请将 'StartWithConditionItem.Jsonize()' 中的此调用替换为对 'string.Format(IFormatProvider, string, params object[])' 的调用。如果要向用户显示 'string.Format(IFormatProvider, string, params object[])' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UploadPartCopyRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Md5Digest" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Md" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="UploadPartCopyRequest.cs" Line="53">更正成员名称 'UploadPartCopyRequest.Md5Digest' 中“Md”的大小写，将其改为“MD”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UploadPartRequest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Md5Digest" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Md" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Domain" File="UploadPartRequest.cs" Line="50">更正成员名称 'UploadPartRequest.Md5Digest' 中“Md”的大小写，将其改为“MD”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Commands">
+       <Types>
+        <Type Name="AbortMultipartUploadCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Create(Aliyun.OSS.Common.Communication.IServiceClient,System.Uri,Aliyun.OSS.Common.Communication.ExecutionContext,Aliyun.OSS.AbortMultipartUploadRequest)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="I:\积微物联\Oss\AliYun\Commands" File="AbortMultipartUploadCommand.cs" Line="67">方法 'AbortMultipartUploadCommand.Create(IServiceClient, Uri, ExecutionContext, AbortMultipartUploadRequest)' 将“uploadId”作为参数 'paramName' 传递给构造函数 'ArgumentException'。请将此参数替换为该方法的某个参数名。请注意，所提供的参数名的大小写应与方法中声明的大小写完全一致。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AppendObjectCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Create(Aliyun.OSS.Common.Communication.IServiceClient,System.Uri,Aliyun.OSS.Common.Communication.ExecutionContext,Aliyun.OSS.AppendObjectRequest)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="I:\积微物联\Oss\AliYun\Commands" File="AppendObjectCommand.cs" Line="86">方法 'AppendObjectCommand.Create(IServiceClient, Uri, ExecutionContext, AppendObjectRequest)' 将“request.Content”作为参数 'paramName' 传递给构造函数 'ArgumentNullException'。请将此参数替换为该方法的某个参数名。请注意，所提供的参数名的大小写应与方法中声明的大小写完全一致。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Parameters" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Parameters()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+             <Messages>
+              <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+               <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Commands" File="AppendObjectCommand.cs" Line="40">由于 'long.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'AppendObjectCommand.Parameters.get()' 中的此调用替换为对 'long.ToString(IFormatProvider)' 的调用。如果要向用户显示 'long.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompleteMultipartUploadCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Create(Aliyun.OSS.Common.Communication.IServiceClient,System.Uri,Aliyun.OSS.Common.Communication.ExecutionContext,Aliyun.OSS.CompleteMultipartUploadRequest)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="I:\积微物联\Oss\AliYun\Commands" File="CompleteMultipartUploadCommand.cs" Line="78">方法 'CompleteMultipartUploadCommand.Create(IServiceClient, Uri, ExecutionContext, CompleteMultipartUploadRequest)' 将“uploadId”作为参数 'paramName' 传递给构造函数 'ArgumentException'。请将此参数替换为该方法的某个参数名。请注意，所提供的参数名的大小写应与方法中声明的大小写完全一致。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Headers" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Headers()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+             <Messages>
+              <Message Id="System.Int64.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+               <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Commands" File="DeleteObjectsCommand.cs" Line="56">由于 'long.ToString()' 的行为可能会因当前用户的区域设置不同而不同，请将 'DeleteObjectsCommand.Headers.get()' 中的此调用替换为对 'long.ToString(IFormatProvider)' 的调用。如果要向用户显示 'long.ToString(IFormatProvider)' 的结果，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListPartsCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(Aliyun.OSS.Common.Communication.IServiceClient,System.Uri,Aliyun.OSS.Common.Communication.ExecutionContext,Aliyun.OSS.Transform.IDeserializer`2&lt;Aliyun.OSS.Common.Communication.ServiceResponse,Aliyun.OSS.PartListing&gt;,Aliyun.OSS.ListPartsRequest)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IncorrectParameterName" Certainty="95" Level="CriticalError" Path="I:\积微物联\Oss\AliYun\Commands" File="ListPartsCommand.cs" Line="69">方法 'ListPartsCommand.ListPartsCommand(IServiceClient, Uri, ExecutionContext, IDeserializer&lt;ServiceResponse, PartListing&gt;, ListPartsRequest)' 将“uploadId”作为参数 'paramName' 传递给构造函数 'ArgumentException'。请将此参数替换为该方法的某个参数名。请注意，所提供的参数名的大小写应与方法中声明的大小写完全一致。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="OssCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BuildRequest()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Commands" File="OssCommand.cs" Line="91">在方法 'OssCommand.BuildRequest()' 中，'new ServiceRequest()' 对象未按所有异常路径释放。请在对 'new ServiceRequest()' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PutObjectCommand" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Create(Aliyun.OSS.Common.Communication.IServiceClient,System.Uri,Aliyun.OSS.Common.Communication.ExecutionContext,System.String,System.String,System.IO.Stream,Aliyun.OSS.ObjectMetadata)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Commands" File="PutObjectCommand.cs" Line="75">在方法 'PutObjectCommand.Create(IServiceClient, Uri, ExecutionContext, string, string, Stream, ObjectMetadata)' 中，请在对 'new OssObject(key)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Common">
+       <Types>
+        <Type Name="ClientConfiguration" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#UserAgent" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Common" File="ClientConfiguration.cs" Line="44">从未使用 'ClientConfiguration.UserAgent' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="OssErrorCode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#IncorrectNumberOfFilesInPOSTRequest" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="POST" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'OssErrorCode.IncorrectNumberOfFilesInPOSTRequest' 中“POST”的大小写，将其改为“Post”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MalformedPOSTRequest" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="POST" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'OssErrorCode.MalformedPOSTRequest' 中“POST”的大小写，将其改为“Post”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MalformedXML" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="XML" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'OssErrorCode.MalformedXML' 中“XML”的大小写，将其改为“Xml”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MaxPOSTPreDataLengthExceededError" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="POST" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'OssErrorCode.MaxPOSTPreDataLengthExceededError' 中“POST”的大小写，将其改为“Post”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NoSuchCORSConfiguration" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">更正成员名称 'OssErrorCode.NoSuchCORSConfiguration' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Common.Authentication">
+       <Types>
+        <Type Name="ICredentialsProvider" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetCredentials()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">如果可行，请将 'ICredentialsProvider.GetCredentials()' 改为属性。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Common.Communication">
+       <Types>
+        <Type Name="RetryableServiceClient" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BeginSend(Aliyun.OSS.Common.Communication.ServiceRequest,Aliyun.OSS.Common.Communication.ExecutionContext,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="RetryableServiceClient.cs" Line="91">在方法 'RetryableServiceClient.BeginSend(ServiceRequest, ExecutionContext, AsyncCallback, object)' 中，请在对 'asyncResult' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ServiceClientImpl" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BeginSendCore(Aliyun.OSS.Common.Communication.ServiceRequest,Aliyun.OSS.Common.Communication.ExecutionContext,System.AsyncCallback,System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceClientImpl.cs" Line="178">在方法 'ServiceClientImpl.BeginSendCore(ServiceRequest, ExecutionContext, AsyncCallback, object)' 中，'new ServiceClientImpl.HttpAsyncResult(callback, state)' 对象未按所有异常路径释放。请在对 'new ServiceClientImpl.HttpAsyncResult(callback, state)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnGetResponseCompleted(System.IAsyncResult)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceClientImpl.cs" Line="200">在方法 'ServiceClientImpl.OnGetResponseCompleted(IAsyncResult)' 中，请在对 'res' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetRequestContent(System.Net.HttpWebRequest,Aliyun.OSS.Common.Communication.ServiceRequest,System.Boolean,Aliyun.OSS.Common.Communication.ServiceClientImpl+OssAction)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int64.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceClientImpl.cs" Line="250">由于 'long.Parse(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'ServiceClientImpl.SetRequestContent(HttpWebRequest, ServiceRequest, bool, ServiceClientImpl.OssAction)' 中的此调用替换为对 'long.Parse(string, IFormatProvider)' 的调用。如果 'long.Parse(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ServiceRequest" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BuildRequestContent()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceRequest.cs" Line="89">在方法 'ServiceRequest.BuildRequestContent()' 中，'content' 对象未按所有异常路径释放。请在对 'content' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildRequestUri()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.EndsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceRequest.cs" Line="62">由于 'string.EndsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'ServiceRequest.BuildRequestUri()' 中的此调用替换为对 'string.EndsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.EndsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Common\Communication" File="ServiceRequest.cs" Line="62">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'ServiceRequest.BuildRequestUri()' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Model">
+       <Types>
+        <Type Name="AccessControlPolicy" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Grants" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="AccessControlPolicy.cs" Line="23">通过移除属性 setter 将 'AccessControlPolicy.Grants' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompleteMultipartUploadRequestModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Parts" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="CompleteMultipartUploadRequestModel.cs" Line="16">将 'CompleteMultipartUploadRequestModel.Parts' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompleteMultipartUploadRequestModel+CompletePart" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'CompleteMultipartUploadRequestModel.CompletePart'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DeleteObjectsRequestModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Keys" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="DeleteObjectsRequestModel.cs" Line="19">将 'DeleteObjectsRequestModel.Keys' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsRequestModel+ObjectToDel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'DeleteObjectsRequestModel.ObjectToDel'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="LifecycleConfiguration" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#LifecycleRules" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="LifecycleConfiguration.cs" Line="17">将 'LifecycleConfiguration.LifecycleRules' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LifecycleRule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Model" File="LifecycleConfiguration.cs" Line="24">更正成员名称 'LifecycleRule.ID' 中“ID”的大小写，将其改为“Id”。“Id”是一个缩写词，因此无需遵守首字母缩略词大小写规则。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListAllMyBucketsResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Buckets" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="ListAllMyBucketsResult.cs" Line="38">通过移除属性 setter 将 'ListAllMyBucketsResult.Buckets' 更改为只读。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListMultipartUploadsResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Uploads" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="ListMultipartUploadsResult.cs" Line="49">将 'ListMultipartUploadsResult.Uploads' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListMultipartUploadsResult+CommonPrefixs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'ListMultipartUploadsResult.CommonPrefixs'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Prefixs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="ListMultipartUploadsResult.cs" Line="75">将 'ListMultipartUploadsResult.CommonPrefixs.Prefixs' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListMultipartUploadsResult+Upload" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'ListMultipartUploadsResult.Upload'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ListPartsResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#PartResults" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="ListPartsResult.cs" Line="38">将 'ListPartsResult.PartResults' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListPartsResult+PartResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'ListPartsResult.PartResult'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SetBucketCorsRequestModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CORSRuleModels" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="17">更正成员名称 'SetBucketCorsRequestModel.CORSRuleModels' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+            </Message>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="17">将 'SetBucketCorsRequestModel.CORSRuleModels' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketCorsRequestModel+CORSRuleModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="CORS" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'SetBucketCorsRequestModel.CORSRuleModel' 中“CORS”的大小写，将其改为“Cors”。</Issue>
+          </Message>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'SetBucketCorsRequestModel.CORSRuleModel'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#AllowedHeaders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="29">将 'SetBucketCorsRequestModel.CORSRuleModel.AllowedHeaders' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllowedMethods" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="26">将 'SetBucketCorsRequestModel.CORSRuleModel.AllowedMethods' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AllowedOrigins" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="23">将 'SetBucketCorsRequestModel.CORSRuleModel.AllowedOrigins' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExposeHeaders" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="I:\积微物联\Oss\AliYun\Model" File="SetBucketCorsRequestModel.cs" Line="32">将 'SetBucketCorsRequestModel.CORSRuleModel.ExposeHeaders' 更改为返回集合或将其转换为方法。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketLoggingRequestModel+SetBucketLoggingEnabled" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'SetBucketLoggingRequestModel.SetBucketLoggingEnabled'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SetBucketWebsiteRequestModel+ErrorDocumentModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'SetBucketWebsiteRequestModel.ErrorDocumentModel'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SetBucketWebsiteRequestModel+IndexDocumentModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">不要嵌套类型 'SetBucketWebsiteRequestModel.IndexDocumentModel'。或者，更改其可访问性，使它在外部不可见。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Transform">
+       <Types>
+        <Type Name="AppendObjectResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int64.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="AppendObjectResponseDeserializer.cs" Line="27">由于 'long.Parse(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'AppendObjectResponseDeserializer.Deserialize(ServiceResponse)' 中的此调用替换为对 'long.Parse(string, IFormatProvider)' 的调用。如果 'long.Parse(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="System.UInt64.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="AppendObjectResponseDeserializer.cs" Line="32">由于 'ulong.Parse(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'AppendObjectResponseDeserializer.Deserialize(ServiceResponse)' 中的此调用替换为对 'ulong.Parse(string, IFormatProvider)' 的调用。如果 'ulong.Parse(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="AppendObjectResponseDeserializer.cs" Line="22">在外部可见方法 'AppendObjectResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompleteMultipartUploadRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.CompleteMultipartUploadRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="CompleteMultipartUploadRequestSerializer.cs" Line="25">在外部可见方法 'CompleteMultipartUploadRequestSerializer.Serialize(CompleteMultipartUploadRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CompleteMultipartUploadResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="CompleteMultipartUploadResultDeserializer.cs" Line="24">在外部可见方法 'CompleteMultipartUploadResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CopyObjectResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="CopyObjectResultDeserializer.cs" Line="24">在外部可见方法 'CopyObjectResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.DeleteObjectsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="DeleteObjectsRequestSerializer.cs" Line="24">在外部可见方法 'DeleteObjectsRequestSerializer.Serialize(DeleteObjectsRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeleteObjectsResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="DeleteObjectsResultDeserializer.cs" Line="22">由于 'int.Parse(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'DeleteObjectsResultDeserializer.Deserialize(ServiceResponse)' 中的此调用替换为对 'int.Parse(string, IFormatProvider)' 的调用。如果 'int.Parse(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="DeleteObjectsResultDeserializer.cs" Line="22">在外部可见方法 'DeleteObjectsResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DeserializerFactory" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#CreateUploadPartResultDeserializer(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="DeserializerFactory.cs" Line="108">从未使用 'DeserializerFactory.CreateUploadPartResultDeserializer(int)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetAclResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetAclResponseDeserializer.cs" Line="24">在外部可见方法 'GetAclResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetBucketLifecycleDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.DateTime.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="GetBucketLifecycleDeserializer.cs" Line="45">由于 'DateTime.Parse(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'GetBucketLifecycleDeserializer.Deserialize(ServiceResponse)' 中的此调用替换为对 'DateTime.Parse(string, IFormatProvider)' 的调用。如果 'DateTime.Parse(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetBucketLifecycleDeserializer.cs" Line="26">在外部可见方法 'GetBucketLifecycleDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryParseEnum(System.String,Aliyun.OSS.RuleStatus&amp;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetBucketLifecycleDeserializer.cs" Line="60">从未使用 'GetBucketLifecycleDeserializer.TryParseEnum(string, out RuleStatus)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetBucketLoggingResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetBucketLoggingResultDeserializer.cs" Line="23">在外部可见方法 'GetBucketLoggingResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetBucketWebSiteResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetBucketWebSiteResultDeserializer.cs" Line="22">在外部可见方法 'GetBucketWebSiteResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetCorsResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetCorsResponseDeserializer.cs" Line="23">在外部可见方法 'GetCorsResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToList(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetCorsResponseDeserializer.cs" Line="46">从未使用 'GetCorsResponseDeserializer.ToList(string[])' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetObjectMetadataResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Equals(System.String,System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectMetadataResponseDeserializer.cs" Line="33">'GetObjectMetadataResponseDeserializer.Deserialize(ServiceResponse)' 将“StringComparison.InvariantCultureIgnoreCase”作为“StringComparison”参数传递给 'string.Equals(string, string, StringComparison)'。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectMetadataResponseDeserializer.cs" Line="38">'GetObjectMetadataResponseDeserializer.Deserialize(ServiceResponse)' 将“StringComparison.InvariantCultureIgnoreCase”作为“StringComparison”参数传递给 'string.Equals(string, string, StringComparison)'。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Issue>
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectMetadataResponseDeserializer.cs" Line="42">'GetObjectMetadataResponseDeserializer.Deserialize(ServiceResponse)' 将“StringComparison.InvariantCultureIgnoreCase”作为“StringComparison”参数传递给 'string.Equals(string, string, StringComparison)'。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Issue>
+            </Message>
+            <Message Id="System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="StringComparison" Certainty="75" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectMetadataResponseDeserializer.cs" Line="27">'GetObjectMetadataResponseDeserializer.Deserialize(ServiceResponse)' 将“CultureInfo.InvariantCulture”作为“StringComparison”参数传递给 'string.StartsWith(string, bool, CultureInfo)'。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectMetadataResponseDeserializer.cs" Line="25">在外部可见方法 'GetObjectMetadataResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GetObjectResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectResponseDeserializer.cs" Line="24">在方法 'GetObjectResponseDeserializer.Deserialize(ServiceResponse)' 中，'new OssObject(this._getObjectRequest.Key)' 对象未按所有异常路径释放。请在对 'new OssObject(this._getObjectRequest.Key)' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="GetObjectResponseDeserializer.cs" Line="24">在外部可见方法 'GetObjectResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InitiateMultipartUploadResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="InitiateMultipartUploadResultDeserializer.cs" Line="24">在方法 'InitiateMultipartUploadResultDeserializer.Deserialize(ServiceResponse)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="InitiateMultipartUploadResultDeserializer.cs" Line="23">在外部可见方法 'InitiateMultipartUploadResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListBucketsResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="ListBucketsResultDeserializer.cs" Line="23">在外部可见方法 'ListBucketsResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListMultipartUploadsResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="ListMultipartUploadsResponseDeserializer.cs" Line="24">在方法 'ListMultipartUploadsResponseDeserializer.Deserialize(ServiceResponse)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="ListMultipartUploadsResponseDeserializer.cs" Line="23">在外部可见方法 'ListMultipartUploadsResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListObjectsResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="ListObjectsResponseDeserializer.cs" Line="24">在方法 'ListObjectsResponseDeserializer.Deserialize(ServiceResponse)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="ListObjectsResponseDeserializer.cs" Line="23">在外部可见方法 'ListObjectsResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ListPartsResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="ListPartsResultDeserializer.cs" Line="26">在方法 'ListPartsResponseDeserializer.Deserialize(ServiceResponse)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+            </Message>
+            <Message Id="System.Convert.ToInt32(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Transform" File="ListPartsResultDeserializer.cs" Line="26">由于 'Convert.ToInt32(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'ListPartsResponseDeserializer.Deserialize(ServiceResponse)' 中的此调用替换为对 'Convert.ToInt32(string, IFormatProvider)' 的调用。如果 'Convert.ToInt32(string, IFormatProvider)' 的结果将基于用户的输入，请指定 'CultureInfo.CurrentCulture' 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 'CultureInfo.InvariantCulture'。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="ListPartsResultDeserializer.cs" Line="24">在外部可见方法 'ListPartsResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PutObjectResponseDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="PutObjectResponseDeserializer.cs" Line="22">在外部可见方法 'PutObjectResponseDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ResponseDeserializer`2" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Decode(System.String,System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="ResponseDeserializer.cs" Line="28">从未使用 'ResponseDeserializer&lt;TResult, TModel&gt;.Decode(string, string)' 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketCorsRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.SetBucketCorsRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SetBucketCorsRequestSerializer.cs" Line="21">在外部可见方法 'SetBucketCorsRequestSerializer.Serialize(SetBucketCorsRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketLifecycleRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.SetBucketLifecycleRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SetBucketLifecycleRequestSerializer.cs" Line="22">在外部可见方法 'SetBucketLifecycleRequestSerializer.Serialize(SetBucketLifecycleRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketLoggingRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.SetBucketLoggingRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SetBucketLoggingRequestSerializer.cs" Line="23">在外部可见方法 'SetBucketLoggingRequestSerializer.Serialize(SetBucketLoggingRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketRefererRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.SetBucketRefererRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SetBucketRefererRequestSerializer.cs" Line="20">在外部可见方法 'SetBucketRefererRequestSerializer.Serialize(SetBucketRefererRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SetBucketWebsiteRequestSerializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(Aliyun.OSS.SetBucketWebsiteRequest)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SetBucketWebsiteRequestSerializer.cs" Line="21">在外部可见方法 'SetBucketWebsiteRequestSerializer.Serialize(SetBucketWebsiteRequest)' 中，请在使用参数“request”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SimpleResponseDeserializer`1" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="SimpleResponseDeserializer.cs" Line="21">在外部可见方法 'SimpleResponseDeserializer&lt;T&gt;.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UploadPartCopyResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="UploadPartCopyResponseDeserializer.cs" Line="27">在外部可见方法 'UploadPartCopyResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="UploadPartResultDeserializer" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Deserialize(Aliyun.OSS.Common.Communication.ServiceResponse)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="UploadPartResponseDeserializer.cs" Line="26">在外部可见方法 'UploadPartResultDeserializer.Deserialize(ServiceResponse)' 中，请在使用参数“xmlStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="XmlStreamSerializer`1" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Serialize(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Transform" File="XmlStreamSerializer.cs" Line="26">在方法 'XmlStreamSerializer&lt;TRequest&gt;.Serialize(TRequest)' 中，'stream' 对象未按所有异常路径释放。请在对 'stream' 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aliyun.OSS.Util">
+       <Types>
+        <Type Name="HttpUtils" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="I:\积微物联\Oss\AliYun\Util" File="HttpUtils.cs" Line="24">声明 'HttpUtils' 中的静态字段时应初始化所有这些字段，并移除显式静态构造函数。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IoUtils" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Io" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">更正类型名称 'IoUtils' 中“Io”的大小写，将其改为“IO”。</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#WriteTo(System.IO.Stream,System.IO.Stream)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Util" File="IOUtils.cs" Line="20">在外部可见方法 'IoUtils.WriteTo(Stream, Stream)' 中，请在使用参数“src”之前先对其进行验证。</Issue>
+            </Message>
+            <Message Id="1" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Util" File="IOUtils.cs" Line="22">在外部可见方法 'IoUtils.WriteTo(Stream, Stream)' 中，请在使用参数“dest”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WriteTo(System.IO.Stream,System.IO.Stream,System.Int64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Util" File="IOUtils.cs" Line="34">在外部可见方法 'IoUtils.WriteTo(Stream, Stream, long)' 中，请在使用参数“orignStream”之前先对其进行验证。</Issue>
+            </Message>
+            <Message Id="1" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Util" File="IOUtils.cs" Line="41">在外部可见方法 'IoUtils.WriteTo(Stream, Stream, long)' 中，请在使用参数“destStream”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="OssUtils" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ComputeContentMd5(System.IO.Stream,System.Int64)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Md" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="201">更正成员名称 'OssUtils.ComputeContentMd5(Stream, long)' 中“Md”的大小写，将其改为“MD”。</Issue>
+            </Message>
+            <Message Id="0" TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="204">在外部可见方法 'OssUtils.ComputeContentMd5(Stream, long)' 中，请在使用参数“input”之前先对其进行验证。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsObjectKeyValid(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="114">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssUtils.IsObjectKeyValid(string)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="114">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssUtils.IsObjectKeyValid(string)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsWebpageValid(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.String.EndsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="229">由于 'string.EndsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssUtils.IsWebpageValid(string)' 中的此调用替换为对 'string.EndsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.EndsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UrlEncodeKey(System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.EndsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="OssUtils.cs" Line="167">由于 'string.EndsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'OssUtils.UrlEncodeKey(string)' 中的此调用替换为对 'string.EndsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.EndsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SignUtils" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#BuildCanonicalString(System.String,System.String,Aliyun.OSS.Common.Communication.ServiceRequest)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="53">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="55">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="55">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="55">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="65">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="66">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="67">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+             <Issue Name="ToUpperInvariant" Certainty="90" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="68">在方法 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中，将对 'string.ToLowerInvariant()' 的调用替换为 String.ToUpperInvariant()。</Issue>
+            </Message>
+            <Message Id="System.String.StartsWith(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2017-04-01 08:17:26Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="55">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+             <Issue Certainty="95" Level="Error" Path="I:\积微物联\Oss\AliYun\Util" File="SignUtils.cs" Line="77">由于 'string.StartsWith(string)' 的行为可能会因当前用户的区域设置不同而不同，请将 'SignUtils.BuildCanonicalString(string, string, ServiceRequest)' 中的此调用替换为对 'string.StartsWith(string, StringComparison)' 的调用。如果要向用户显示 'string.StartsWith(string, StringComparison)' 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidExcessiveClassCoupling" Category="Microsoft.Maintainability" CheckId="CA1506">
+   <Name>避免过度类耦合度</Name>
+   <Description>类耦合度较高的类型和方法很难维护。</Description>
+   <Resolution Name="Type">{0} 与来自 {2} 个不同命名空间中的 {1} 个不同类型耦合。请重写或重构该类的方法，以降低它的类耦合度，或者考虑将该类的某些方法移到与之紧密耦合的其他某些类型中。高于 {3} 的类耦合度表示可维护性较差，介于 {3} 和 {4} 之间的类耦合度表示可维护性适中，低于 {4} 的类耦合度表示可维护性较好。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb397994.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="maintainabilityrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>避免使用类型极少的命名空间</Name>
+   <Description>命名空间一般应具有五个以上的类型。</Description>
+   <Resolution Name="Default">考虑将“{0}”中定义的类型与另一个命名空间合并。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227">
+   <Name>集合属性应为只读</Name>
+   <Description>返回集合的属性应为只读，以确保用户无法完全替换后备存储。用户通过对集合调用相关方法仍然可以修改集合的内容。请注意，XmlSerializer 类对反序列化只读集合具有专门的支持。有关详细信息，请参见 XmlSerializer 概述。</Description>
+   <Resolution Name="Default">通过移除属性 setter 将 {0} 更改为只读。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182327.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="DefaultParametersShouldNotBeUsed" Category="Microsoft.Design" CheckId="CA1026">
+   <Name>不应使用默认形参</Name>
+   <Description>某些编程语言不支持默认形参。用提供默认实参的方法重载来替换默认形参。</Description>
+   <Resolution Name="Default">用提供所有默认形参的重载来替换方法 {0}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182135.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>标识符的大小写应当正确</Name>
+   <Description>类型、命名空间和成员标识符应采用 Pascal 大小写格式。参数标识符应采用 Camel 大小写格式。这些标识符内由两个字母组成的首字母缩略词应全部大写，例如，应采用 System.IO，而不是 System.Io。由三个或更多个字母组成的首字母缩略词应采用 Pascal 大小写格式，例如，应采用 System.Xml，而不是 System.XML。Pascal 大小写格式约定每个单词的首字母大写，如 BackColor。Camel 大小写格式约定第一个单词的首字母小写，所有后续单词的首字母都大写，如 backgroundColor。尽管有些由两个字母组成的首字母缩略词习惯采用不完全大写形式，但不能因此而排斥此规则。例如，“DbConnection”很常见，但并不正确，应采用 DBConnection。为了与现有的非托管符号方案兼容，可能需要违反此规则。但一般来说，这些符号在使用它们的程序集之外不可见。</Description>
+   <Resolution Name="Assembly">更正程序集名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="Member">更正成员名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="MemberAbbreviation">更正成员名称 {1} 中“{0}”的大小写，将其改为“{2}”。“{2}”是一个缩写词，因此无需遵守首字母缩略词大小写规则。</Resolution>
+   <Resolution Name="Namespace">更正命名空间名称“{1}”中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Resolution Name="Type">更正类型名称 {1} 中“{0}”的大小写，将其改为“{2}”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810">
+   <Name>以内联方式初始化引用类型的静态字段</Name>
+   <Description>声明静态字段时，应初始化这些字段。初始化显式静态构造函数中的静态数据将导致代码性能较差。</Description>
+   <Resolution Name="Default">声明 {0} 中的静态字段时应初始化所有这些字段，并移除显式静态构造函数。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182275.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>正确实例化参数异常</Name>
+   <Description>传递给 ArgumentException 及其派生类型的构造函数的字符串参数应该是正确的。与 ArgumentException 相比，派生自 ArgumentException 的类型在 message 和 paramName 参数方面具有不一致的构造函数重载。</Description>
+   <Resolution Name="IncorrectParameterName">方法 {0} 将“{1}”作为参数 {2} 传递给构造函数 {3}。请将此参数替换为该方法的某个参数名。请注意，所提供的参数名的大小写应与方法中声明的大小写完全一致。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182347.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>用 CLSCompliantAttribute 标记程序集</Name>
+   <Description>程序集应使用 CLSCompliant 特性显式说明其 ClS 遵从性。没有此特性的程序集不符合 CLS。即使程序集、模块或类型的某些部分不符合 CLS，这些程序集、模块或类型本身也可以是符合 CLS 的。适用下列规则: 1) 如果元素标记为 CLSCompliant，则所有不符合 CLS 的成员都必须有参数设置为 false 的 CLSCompliant 特性。2) 对于每个不符合 CLS 的成员，都必须提供一个相应的符合 CLS 的备选成员。</Description>
+   <Resolution Name="Default">使用 CLSCompliant(true)来标记 {0}，因为它公开外部可见的类型。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>将成员标记为 static</Name>
+   <Description>不访问实例数据或调用实例方法的方法可标记为 Static (在 Visual Basic 中为 Shared)。这样，编译器会向这些成员发出非虚拟调用站点，以防止在运行时对每个调用进行旨在确保当前对象指针为非 null 的检查。这样可以使对性能比较敏感的代码获得显著的性能提升。在某些情况下，无法访问当前对象实例表明存在正确性问题。</Description>
+   <Resolution Name="Default">从未使用 {0} 的“this”参数(Visual Basic 中为“Me”)。根据需要，将成员标记为 static (Visual Basic 中为“Shared”)，或者在方法体或至少一个属性访问器中使用“this”/“Me”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+   <Name>嵌套类型不应是可见的</Name>
+   <Description>不要使用 public、protected 或 protected internal (Protected Friend)等嵌套类型作为类型的分组方式。使用命名空间实现此目的。嵌套类型仅在极为有限的情况下才是最佳设计。此外，不是所有的用户都能清楚地了解嵌套类型成员的可访问性。枚举数不受此规则限制。</Description>
+   <Resolution Name="Default">不要嵌套类型 {0}。或者，更改其可访问性，使它在外部不可见。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182162.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="NormalizeStringsToUppercase" Category="Microsoft.Globalization" CheckId="CA1308">
+   <Name>将字符串规范化为大写</Name>
+   <Description>字符串应规范化为大写。</Description>
+   <Resolution Name="ToUpperInvariant">在方法 {0} 中，将对 {1} 的调用替换为 String.ToUpperInvariant()。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386042.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+   <Name>属性不应返回数组</Name>
+   <Description>返回数组的属性容易降低代码的效率。请考虑使用集合或将其转换为方法。有关详细信息，请参见设计指南。</Description>
+   <Resolution Name="Default">将 {0} 更改为返回集合或将其转换为方法。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/0fss9skc.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>再次引发以保留堆栈详细信息</Name>
+   <Description>重复引发捕获的异常时，请使用 IL 再次引发指令保留原始堆栈详细信息。</Description>
+   <Resolution Name="Default">{0} 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304">
+   <Name>指定 CultureInfo</Name>
+   <Description>如果存在一个采用 CultureInfo 参数的重载，则应始终调用该重载，而不调用未采用该参数的重载。CultureInfo 类型包含区域性特定的信息，这些信息是执行数字和字符串运算(如大小写转换、格式设置和字符串比较)所必需的。如果区域性之间的转换和分析行为应始终不变，请指定 CultureInfo.InvariantCulture，否则，请指定 CultureInfo.CurrentCulture。</Description>
+   <Resolution Name="Default">由于 {0} 的行为可能因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果要向用户显示 {2} 的结果，请将“CultureInfo.CurrentCulture”指定为“CultureInfo”参数；如果软件将存储和访问此结果(例如，要将它保留到磁盘或数据库中)，则指定“CultureInfo.InvariantCulture”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182189.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>指定 IFormatProvider</Name>
+   <Description>如果存在一个采用 IFormatProvider 参数的重载，则应始终调用该重载，而不调用未采用该参数的重载。运行时中的某些方法可以将值与字符串表示形式相互进行转换，并采用一个字符串参数。该参数中包含一个或多个称为格式说明符的字符，用于指示如何对值进行转换。如果格式说明符的含义因区域性而异，则格式设置对象提供在字符串表示形式中使用的实际字符。如果排序和比较行为不得因区域性而改变，请指定 CultureInfo.InvariantCulture，否则，请指定 CultureInfo.CurrentCulture。</Description>
+   <Resolution Name="IFormatProviderAlternate">由于 {0} 的行为可能会因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果 {2} 的结果将基于用户的输入，请指定 {3} 作为“IFormatProvider”参数。或者，如果此结果将基于由软件存储和访问的输入(例如，当从磁盘或数据库加载此结果时)，则指定 {4}。</Resolution>
+   <Resolution Name="IFormatProviderAlternateString">由于 {0} 的行为可能会因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果要向用户显示 {2} 的结果，请指定 {3} 作为“IFormatProvider”参数。或者，如果软件将存储和访问此结果(例如，当将此结果保留到磁盘或数据库中时)，则指定 {4}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>指定 StringComparison</Name>
+   <Description>如果存在采用 StringComparison 参数的重载，则始终先调用此重载，而不是那些不接受该参数的重载。</Description>
+   <Resolution Name="Default">由于 {0} 的行为可能会因当前用户的区域设置不同而不同，请将 {1} 中的此调用替换为对 {2} 的调用。如果要向用户显示 {2} 的结果(例如，在对一个项列表进行排序以便在列表框中显示时)，请指定“StringComparison.CurrentCulture”或“StringComparison.CurrentCultureIgnoreCase”作为“StringComparison”参数。如果比较不区分大小写的标识符(例如，文件路径、环境变量或注册表项和值)，则指定“StringComparison.OrdinalIgnoreCase”。或者，如果比较区分大小写的标识符，则指定“StringComparison.Ordinal”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="StringUriOverloadsCallSystemUriOverloads" Category="Microsoft.Design" CheckId="CA1057">
+   <Name>字符串 URI 重载调用 System.Uri 重载</Name>
+   <Description>如果一个方法通过用字符串替换 System.Uri 参数来重载另一个方法，则该字符串重载只是从该字符串生成一个 URI 对象，然后将结果传递给字符串重载。</Description>
+   <Resolution Name="Default">重构 {0}，使其基于 {1} 生成一个 System.Uri 对象，然后调用 {2}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182170.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309">
+   <Name>使用按顺序的 StringComparison</Name>
+   <Description>对于非语义比较，应使用 StringComparison.Ordinal 或 StringComparison.OrdinalIgnoreCase，而不使用区分语义的 StringComparison.InvariantCulture。</Description>
+   <Resolution Name="StringComparison">{0} 将“{1}”作为“StringComparison”参数传递给 {2}。若要执行非语义比较，请改为指定“StringComparison.Ordinal”或“StringComparison.OrdinalIgnoreCase”。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385972.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>在适用处使用属性</Name>
+   <Description>在大多数情况下，应使用属性而不是 Get/Set 方法。在下列情况下，方法比属性更可取: 第一，执行的是转换操作，操作开销大或具有显著的副作用；第二，执行的顺序很重要；第三，连续两次调用成员得到的结果不同；第四，静态成员却返回了可变的值；第五，成员返回了数组。</Description>
+   <Resolution Name="Default">如果可行，请将 {0} 改为属性。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182181.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="丢失范围之前释放对象" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>丢失范围之前释放对象</Name>
+   <Description>如果在对某个可释放对象的所有引用超出范围之前未显式释放该对象，则当垃圾回收器运行该对象的终结器时，会在某个不确定时间释放该对象。由于可能会发生阻止该对象的终结器运行的意外事件，因此应改为显式释放该对象。</Description>
+   <Resolution Name="ExceptionEdge">在方法 {0} 中，{1} 对象未按所有异常路径释放。请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Resolution Name="NonExceptionEdge">在方法 {0} 中，请在对 {1} 对象的所有引用超出范围之前，对该对象调用 System.IDisposable.Dispose。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="验证公共方法的参数" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>验证公共方法的参数</Name>
+   <Description>应检查传递给外部可见方法的所有引用参数是否为 Null (在 VB 中为 Nothing)。如果适用，在参数为 null 时，引发 System.ArgumentNullException。</Description>
+   <Resolution Name="Default">在外部可见方法 {0} 中，请在使用参数“{1}”之前先对其进行验证。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

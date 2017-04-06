@@ -1,0 +1,11 @@
+I:\积微物联\Oss\Oss\bin\Debug\Oss.dll
+I:\积微物联\Oss\Oss\bin\Debug\Oss.pdb
+I:\积微物联\Oss\Oss\bin\Debug\Aliyun.OSS.dll
+I:\积微物联\Oss\Oss\obj\Debug\Oss.csprojResolveAssemblyReference.cache
+I:\积微物联\Oss\Oss\obj\Debug\Oss.dll
+I:\积微物联\Oss\Oss\obj\Debug\Oss.pdb
+I:\积微物联\Oss\Oss\bin\Debug\Newtonsoft.Json.dll
+I:\积微物联\Oss\Oss\bin\Debug\Newtonsoft.Json.xml
+I:\积微物联\Oss\Oss\bin\Debug\Qiniu.dll
+I:\积微物联\Oss\Oss\bin\Debug\Aliyun.OSS.pdb
+I:\积微物联\Oss\Oss\bin\Debug\Qiniu.pdb

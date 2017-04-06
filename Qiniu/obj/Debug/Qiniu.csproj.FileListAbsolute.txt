@@ -1,0 +1,6 @@
+I:\积微物联\Oss\Qiniu\bin\Debug\Qiniu.dll
+I:\积微物联\Oss\Qiniu\bin\Debug\Qiniu.pdb
+I:\积微物联\Oss\Qiniu\bin\Debug\Newtonsoft.Json.dll
+I:\积微物联\Oss\Qiniu\bin\Debug\Newtonsoft.Json.xml
+I:\积微物联\Oss\Qiniu\obj\Debug\Qiniu.dll
+I:\积微物联\Oss\Qiniu\obj\Debug\Qiniu.pdb

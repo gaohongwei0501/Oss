@@ -1,0 +1,17 @@
+I:\积微物联\Oss\OssText\bin\Debug\OssText.exe.config
+I:\积微物联\Oss\OssText\bin\Debug\OssText.exe
+I:\积微物联\Oss\OssText\bin\Debug\OssText.pdb
+I:\积微物联\Oss\OssText\bin\Debug\Oss.dll
+I:\积微物联\Oss\OssText\bin\Debug\Aliyun.OSS.dll
+I:\积微物联\Oss\OssText\bin\Debug\Oss.pdb
+I:\积微物联\Oss\OssText\obj\Debug\OssText.csprojResolveAssemblyReference.cache
+I:\积微物联\Oss\OssText\obj\Debug\OssText.exe
+I:\积微物联\Oss\OssText\obj\Debug\OssText.pdb
+I:\积微物联\Oss\OssText\bin\Debug\Qiniu.dll
+I:\积微物联\Oss\OssText\bin\Debug\Newtonsoft.Json.dll
+I:\积微物联\Oss\OssText\bin\Debug\Newtonsoft.Json.xml
+I:\积微物联\Oss\OssText\bin\Debug\Aliyun.OSS.pdb
+I:\积微物联\Oss\OssText\bin\Debug\Qiniu.pdb
+G:\开源\Oss\OssText\bin\Debug\OssText.exe.config
+G:\开源\Oss\OssText\obj\Debug\OssText.exe
+G:\开源\Oss\OssText\obj\Debug\OssText.pdb

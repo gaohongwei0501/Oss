@@ -1,0 +1,11 @@
+I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.XML
+I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.dll
+I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.pdb
+I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.dll.CodeAnalysisLog.xml
+I:\积微物联\Oss\AliYun\bin\Release\Aliyun.OSS.dll.lastcodeanalysissucceeded
+I:\积微物联\Oss\AliYun\obj\Release\aliyun-oss-sdk.csprojResolveAssemblyReference.cache
+I:\积微物联\Oss\AliYun\obj\Release\Aliyun.OSS.Domain.OssResources.resources
+I:\积微物联\Oss\AliYun\obj\Release\Aliyun.OSS.Properties.Resources.resources
+I:\积微物联\Oss\AliYun\obj\Release\aliyun-oss-sdk.csproj.GenerateResource.Cache
+I:\积微物联\Oss\AliYun\obj\Release\Aliyun.OSS.dll
+I:\积微物联\Oss\AliYun\obj\Release\Aliyun.OSS.pdb

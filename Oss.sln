@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oss", "Oss\Oss.csproj", "{A69ECC71-1819-4E4A-BC09-92AE908A78A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OssText", "OssText\OssText.csproj", "{6898AC29-9005-4322-B8A3-8FFC8009B28C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qiniu", "Qiniu\Qiniu.csproj", "{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aliyun-oss-sdk", "AliYun\aliyun-oss-sdk.csproj", "{67BDC800-084C-4F84-8A80-661B5AFE499A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8901E8F3-B6D1-49E8-9C66-6379377DFA91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69ECC71-1819-4E4A-BC09-92AE908A78A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69ECC71-1819-4E4A-BC09-92AE908A78A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69ECC71-1819-4E4A-BC09-92AE908A78A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69ECC71-1819-4E4A-BC09-92AE908A78A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6898AC29-9005-4322-B8A3-8FFC8009B28C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6898AC29-9005-4322-B8A3-8FFC8009B28C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6898AC29-9005-4322-B8A3-8FFC8009B28C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6898AC29-9005-4322-B8A3-8FFC8009B28C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BDC800-084C-4F84-8A80-661B5AFE499A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E34F509-2E8E-4A05-AFB3-8BAE3B07A828} = {8901E8F3-B6D1-49E8-9C66-6379377DFA91}
+		{67BDC800-084C-4F84-8A80-661B5AFE499A} = {8901E8F3-B6D1-49E8-9C66-6379377DFA91}
+	EndGlobalSection
+EndGlobal
